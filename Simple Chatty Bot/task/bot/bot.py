@@ -1,7 +1,8 @@
 print('Hello! My name is Aid.')
 print('I was created in 2020.')
-print('Please, remind me you    r name.')
+print('Please, remind me your name.')
+your_name = input()
 
 # reading a name
 
-print('What a great name you have, {your_name}!')
+print(f'What a great name you have, {your_name}!')
