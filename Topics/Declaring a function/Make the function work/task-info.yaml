@@ -1,0 +1,28 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def closest_higher_mod_5(x):
+        remainder = x % 5
+        if remainder == 0:
+            return x
+        return "I don't know :("
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5907#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 12. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    40
+    Correct output:
+    40
+
+    Your code output:
+    0
+  time: Sun, 10 Jul 2022 02:27:20 UTC
+record: -1
