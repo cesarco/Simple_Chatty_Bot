@@ -33,7 +33,17 @@ def count():
 
 def test():
     print("Let's test your programming knowledge.")
-    # write your code here
+    print('Why do we use methos?\n'
+          '1. To repeat a statement multiple times.?\n'
+          '2. To decompose a program into several small subroutines.?\n'
+          '3. To determine the execution time of a program.?\n'
+          '4. To interrupt the execution of a program.')
+    answer = int(input())
+    if answer == 2:
+        end()
+    else:
+        print('Please, try again')
+        test()
     print('Completed, have a nice day!')
 
 
@@ -45,5 +55,5 @@ greet('Aid', '2020')  # change it as you need
 remind_name()
 guess_age()
 count()
-# ...
+test()
 end()
