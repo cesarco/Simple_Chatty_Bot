@@ -1,0 +1,25 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import math
+
+    # your code here
+
+    # don't delete this line, please
+    math.factorial(23)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15824#comment
+status: Failed
+feedback:
+  message: |
+    Failed. Runtime error
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 10, in <module>
+        math.factorial(funca())
+    TypeError: an integer is required (got type str)
+  time: Sun, 10 Jul 2022 02:40:41 UTC
+record: -1
